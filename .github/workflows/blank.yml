@@ -40,7 +40,7 @@ jobs:
             GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         # Use --username and put your user name
         run: |
-          python generator.py --username [YOUR_USER_NAME]
+          python generator.py --username [Dyrina]
 
       - name: Update profile card
         run: |
